@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Default Debug",
+            "program": "${workspaceFolder}${pathSeparator}build${pathSeparator}bin${pathSeparator}${fileBasenameNoExtension}",
+            "args": [],
+            "cwd": "${fileDirname}",
+            "preLaunchTask":"Build files w/ g++ 11",
+            "console":"integratedTerminal",
+            "internalConsoleOptions": "neverOpen"
+        }
+    ]
+}
